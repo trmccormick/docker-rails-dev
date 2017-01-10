@@ -11,7 +11,7 @@ docker exec -t myapp rails db:create
 
 docker exec -t myapp rails db:migrate
 
-If you have seed database run
+If you have setup seed data run
 docker exec -t myapp rails db:seed
 
 ## Errors, queries and bugs
