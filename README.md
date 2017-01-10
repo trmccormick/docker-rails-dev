@@ -14,6 +14,9 @@ docker exec -t myapp rails db:migrate
 If you have setup seed data run
 docker exec -t myapp rails db:seed
 
+## To Do
+Would like to add support for loading a saved database and if one wasn't found running the db:create, db:migrate and d:seed. This should happen on vagrant up.
+
 ## Errors, queries and bugs
 
 ## References
